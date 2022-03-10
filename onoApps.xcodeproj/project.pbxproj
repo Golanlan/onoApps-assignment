@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34ED27184AF7976289F2B595 /* Pods_onoApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492768F4879C7CEDB3B6FF94 /* Pods_onoApps.framework */; };
 		3BC64D3427DA0D74008C6416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D3327DA0D74008C6416 /* AppDelegate.swift */; };
 		3BC64D3627DA0D74008C6416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D3527DA0D74008C6416 /* SceneDelegate.swift */; };
 		3BC64D3827DA0D74008C6416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D3727DA0D74008C6416 /* ViewController.swift */; };
 		3BC64D3B27DA0D74008C6416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC64D3927DA0D74008C6416 /* Main.storyboard */; };
 		3BC64D3D27DA0D78008C6416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC64D3C27DA0D78008C6416 /* Assets.xcassets */; };
 		3BC64D4027DA0D78008C6416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC64D3E27DA0D78008C6416 /* LaunchScreen.storyboard */; };
+		3BC64D4D27DA0F9B008C6416 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D4C27DA0F9B008C6416 /* ViewModel.swift */; };
+		3BC64D4F27DA1084008C6416 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D4E27DA1084008C6416 /* Model.swift */; };
+		3BC64D5227DA140A008C6416 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D5127DA140A008C6416 /* Box.swift */; };
+		3BC64D5427DA1D6E008C6416 /* FruitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D5327DA1D6E008C6416 /* FruitTableViewCell.swift */; };
+		3BC64D5827DA2096008C6416 /* FruitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC64D5727DA2096008C6416 /* FruitDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20727CE6A994729AB83D9349 /* Pods-onoApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onoApps.release.xcconfig"; path = "Target Support Files/Pods-onoApps/Pods-onoApps.release.xcconfig"; sourceTree = "<group>"; };
 		3BC64D3027DA0D74008C6416 /* onoApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onoApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC64D3327DA0D74008C6416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC64D3527DA0D74008C6416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		3BC64D3C27DA0D78008C6416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC64D3F27DA0D78008C6416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC64D4127DA0D78008C6416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC64D4C27DA0F9B008C6416 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3BC64D4E27DA1084008C6416 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3BC64D5127DA140A008C6416 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		3BC64D5327DA1D6E008C6416 /* FruitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTableViewCell.swift; sourceTree = "<group>"; };
+		3BC64D5727DA2096008C6416 /* FruitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsViewController.swift; sourceTree = "<group>"; };
+		492768F4879C7CEDB3B6FF94 /* Pods_onoApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onoApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECDBC882152025A3BA6F149 /* Pods-onoApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onoApps.debug.xcconfig"; path = "Target Support Files/Pods-onoApps/Pods-onoApps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34ED27184AF7976289F2B595 /* Pods_onoApps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				3BC64D3227DA0D74008C6416 /* onoApps */,
 				3BC64D3127DA0D74008C6416 /* Products */,
+				46231DD2696F141305102F6F /* Pods */,
+				8BA2EECA2706AE6EC69CFB7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,85 @@
 		3BC64D3227DA0D74008C6416 /* onoApps */ = {
 			isa = PBXGroup;
 			children = (
-				3BC64D3327DA0D74008C6416 /* AppDelegate.swift */,
-				3BC64D3527DA0D74008C6416 /* SceneDelegate.swift */,
-				3BC64D3727DA0D74008C6416 /* ViewController.swift */,
-				3BC64D3927DA0D74008C6416 /* Main.storyboard */,
-				3BC64D3C27DA0D78008C6416 /* Assets.xcassets */,
-				3BC64D3E27DA0D78008C6416 /* LaunchScreen.storyboard */,
+				3BC64D5027DA1401008C6416 /* Utils */,
+				3BC64D4B27DA0ED7008C6416 /* Storyboards */,
+				3BC64D4A27DA0EC2008C6416 /* Resources */,
+				3BC64D4927DA0EBA008C6416 /* Models */,
+				3BC64D4827DA0EB4008C6416 /* View Models */,
+				3BC64D4727DA0EA9008C6416 /* Views */,
 				3BC64D4127DA0D78008C6416 /* Info.plist */,
 			);
 			path = onoApps;
+			sourceTree = "<group>";
+		};
+		3BC64D4727DA0EA9008C6416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D3727DA0D74008C6416 /* ViewController.swift */,
+				3BC64D5327DA1D6E008C6416 /* FruitTableViewCell.swift */,
+				3BC64D5727DA2096008C6416 /* FruitDetailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BC64D4827DA0EB4008C6416 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D4C27DA0F9B008C6416 /* ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		3BC64D4927DA0EBA008C6416 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D4E27DA1084008C6416 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BC64D4A27DA0EC2008C6416 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D3327DA0D74008C6416 /* AppDelegate.swift */,
+				3BC64D3527DA0D74008C6416 /* SceneDelegate.swift */,
+				3BC64D3C27DA0D78008C6416 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BC64D4B27DA0ED7008C6416 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D3927DA0D74008C6416 /* Main.storyboard */,
+				3BC64D3E27DA0D78008C6416 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3BC64D5027DA1401008C6416 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3BC64D5127DA140A008C6416 /* Box.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		46231DD2696F141305102F6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BECDBC882152025A3BA6F149 /* Pods-onoApps.debug.xcconfig */,
+				20727CE6A994729AB83D9349 /* Pods-onoApps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BA2EECA2706AE6EC69CFB7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				492768F4879C7CEDB3B6FF94 /* Pods_onoApps.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BC64D4427DA0D78008C6416 /* Build configuration list for PBXNativeTarget "onoApps" */;
 			buildPhases = (
+				60349F85EC770ED50063A750 /* [CP] Check Pods Manifest.lock */,
 				3BC64D2C27DA0D74008C6416 /* Sources */,
 				3BC64D2D27DA0D74008C6416 /* Frameworks */,
 				3BC64D2E27DA0D74008C6416 /* Resources */,
+				9FA8F9728ADE34C77C4A58C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +222,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60349F85EC770ED50063A750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onoApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FA8F9728ADE34C77C4A58C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onoApps/Pods-onoApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onoApps/Pods-onoApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onoApps/Pods-onoApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BC64D2C27DA0D74008C6416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC64D4F27DA1084008C6416 /* Model.swift in Sources */,
 				3BC64D3827DA0D74008C6416 /* ViewController.swift in Sources */,
+				3BC64D5427DA1D6E008C6416 /* FruitTableViewCell.swift in Sources */,
 				3BC64D3427DA0D74008C6416 /* AppDelegate.swift in Sources */,
+				3BC64D5827DA2096008C6416 /* FruitDetailsViewController.swift in Sources */,
+				3BC64D5227DA140A008C6416 /* Box.swift in Sources */,
+				3BC64D4D27DA0F9B008C6416 /* ViewModel.swift in Sources */,
 				3BC64D3627DA0D74008C6416 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +420,7 @@
 		};
 		3BC64D4527DA0D78008C6416 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECDBC882152025A3BA6F149 /* Pods-onoApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +449,7 @@
 		};
 		3BC64D4627DA0D78008C6416 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20727CE6A994729AB83D9349 /* Pods-onoApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

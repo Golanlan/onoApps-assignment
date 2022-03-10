@@ -1,0 +1,6 @@
+framework module Pods_onoApps {
+  umbrella header "Pods-onoApps-umbrella.h"
+
+  export *
+  module * { export * }
+}
